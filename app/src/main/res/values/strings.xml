@@ -1,0 +1,17 @@
+<resources>
+    <!-- String for the App -->
+    <string name="app_name">Drug Inc.</string>
+    <!-- Strings for Buttons in Building 1/1 -->
+    <string name="up1">Upgrade 1</string>
+    <string name="up2">Upgrade 2</string>
+    <string name="up3">Upgrade 3</string>
+    <string name="up4">Upgrade 4</string>
+    <string name="up5">Upgrade 5</string>
+    <string name="sp1">Space 1</string>
+    <string name="up6">Upgrade 6</string>
+    <string name="up7">Upgrade 7</string>
+    <string name="up8">Upgrade 8</string>
+    <string name="up9">Upgrade 9</string>
+    <string name="up10">Upgrade 10</string>
+    <string name="sp2">Space 2</string>
+</resources>

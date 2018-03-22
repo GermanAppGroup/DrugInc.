@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.druginc.MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageButton
+                android:contentDescription="@string/up1"
+                android:id="@+id/up1"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="150dp" />
+
+            <ImageButton
+                android:contentDescription="@string/up2"
+                android:id="@+id/up2"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="250dp" />
+
+            <ImageButton
+                android:contentDescription="@string/up3"
+                android:id="@+id/up3"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="350dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up4"
+                android:id="@+id/up4"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="450dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up5"
+                android:id="@+id/up5"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="550dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/sp1"
+                android:id="@+id/sp1"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="650dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up6"
+                android:id="@+id/up6"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="750dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up7"
+                android:id="@+id/up7"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="850dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up8"
+                android:id="@+id/up8"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="950dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up9"
+                android:id="@+id/up9"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="1050dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/up10"
+                android:id="@+id/up10"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="1150dp"/>
+
+            <ImageButton
+                android:contentDescription="@string/sp2"
+                android:id="@+id/sp2"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="1250dp"/>
+
+
+
+        </FrameLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
