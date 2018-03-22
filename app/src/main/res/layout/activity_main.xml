@@ -7,7 +7,6 @@
     tools:context="com.druginc.MainActivity">
 
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -145,21 +144,25 @@
         </FrameLayout>
 
 
-
-
     </ScrollView>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/op"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_gravity="end"
-        android:contentDescription="@string/op"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="40dp" />
+        <ImageButton
+            android:id="@+id/op"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:contentDescription="@string/op"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="45dp" />
 
+
+
+    </FrameLayout>
 
 
 </android.support.constraint.ConstraintLayout>
